@@ -16,3 +16,5 @@ npm start
 pip install django-cors-headers
 
 pip freeze > requirements.txt
+
+npm run build
