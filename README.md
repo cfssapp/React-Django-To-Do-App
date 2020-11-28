@@ -18,3 +18,15 @@ pip install django-cors-headers
 pip freeze > requirements.txt
 
 npm run build
+
+# 01 Gh Pages
+
+npm install gh-pages --save-dev
+
+git init
+git remote add origin https://github.com/cfssapp/frontend-build.git
+
+git add .
+
+npm run predeploy
+npm run deploy
